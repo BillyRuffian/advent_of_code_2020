@@ -27,4 +27,4 @@ puts passports_from('input.txt', klass: Passport).filter(&:valid?).count
 # Part 2
 puts 'Part 2'
 
-pp passports_from('input.txt', klass: Passport2).filter(&:valid?).count
+puts passports_from('input.txt', klass: Passport2).filter(&:valid?).count
