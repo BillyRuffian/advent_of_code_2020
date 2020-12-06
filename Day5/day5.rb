@@ -1,6 +1,6 @@
 # Part 1
 
-# It's binary encoding - the whole * 8 thing is a 2^3 = 8 so lshift the
+# It's binary encoding - the whole '* 8' thing is a 2^3 = 8 so lshift the
 # row digits by 3 and append the col encoding.
 # Consider the seat number 
 #   B   F   F   F   B   B   F   R   R   R - the seat number 
